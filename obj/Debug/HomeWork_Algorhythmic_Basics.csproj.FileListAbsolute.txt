@@ -1,0 +1,7 @@
+C:\Users\zoltan.hetenyi\source\repos\Charp_ET_HW\HomeWork_Algorhythmic_Basics\obj\Debug\HomeWork_Algorhythmic_Basics.csproj.AssemblyReference.cache
+C:\Users\zoltan.hetenyi\source\repos\Charp_ET_HW\HomeWork_Algorhythmic_Basics\obj\Debug\HomeWork_Algorhythmic_Basics.csproj.CoreCompileInputs.cache
+C:\Users\zoltan.hetenyi\source\repos\Charp_ET_HW\HomeWork_Algorhythmic_Basics\bin\Debug\HomeWork_Algorhythmic_Basics.exe.config
+C:\Users\zoltan.hetenyi\source\repos\Charp_ET_HW\HomeWork_Algorhythmic_Basics\bin\Debug\HomeWork_Algorhythmic_Basics.exe
+C:\Users\zoltan.hetenyi\source\repos\Charp_ET_HW\HomeWork_Algorhythmic_Basics\bin\Debug\HomeWork_Algorhythmic_Basics.pdb
+C:\Users\zoltan.hetenyi\source\repos\Charp_ET_HW\HomeWork_Algorhythmic_Basics\obj\Debug\HomeWork_Algorhythmic_Basics.exe
+C:\Users\zoltan.hetenyi\source\repos\Charp_ET_HW\HomeWork_Algorhythmic_Basics\obj\Debug\HomeWork_Algorhythmic_Basics.pdb
