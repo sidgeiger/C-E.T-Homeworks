@@ -1,0 +1,7 @@
+c:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\Homework_Algorythmic_Basics_4\bin\Debug\Homework_Algorythmic_Basics_4.exe.config
+c:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\Homework_Algorythmic_Basics_4\bin\Debug\Homework_Algorythmic_Basics_4.exe
+c:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\Homework_Algorythmic_Basics_4\bin\Debug\Homework_Algorythmic_Basics_4.pdb
+c:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\Homework_Algorythmic_Basics_4\obj\Debug\Homework_Algorythmic_Basics_4.csproj.AssemblyReference.cache
+c:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\Homework_Algorythmic_Basics_4\obj\Debug\Homework_Algorythmic_Basics_4.csproj.CoreCompileInputs.cache
+c:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\Homework_Algorythmic_Basics_4\obj\Debug\Homework_Algorythmic_Basics_4.exe
+c:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\Homework_Algorythmic_Basics_4\obj\Debug\Homework_Algorythmic_Basics_4.pdb
