@@ -4,87 +4,77 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace HomeWork_Algorhythmic_Basics_2
+namespace Homework_Algorythmic_Basics_3
 {
+    // Kérj be bármilyen szöveget a felhasználótól. Fordítva írd ki konzolra.
+
     class Program
     {
-        static Random rnd = new Random();
+
         static void Main(string[] args)
         {
-            //  Végy fel egy 10 elemű, egész számokat tartalmazó tömböt.Töltsd fel random számokkal.
-            //  Írd ki az összes elemét konzolra.
-            //  Rendezd növekvő sorrendbe.
-            //  Írd ki a tömböt.
-            //  Rendezd csökennő sorendbe.
-            //  Írd ki a tömböt.
-            int[] newArray = new int[10];
-            int valueCache;
+            //var i = new userStringIterator();
+            
 
-            Console.WriteLine("Newly random elements in newArray are:");
-            for (int i = 0; i < newArray.Length; i++)
+            string  userString = string.Empty;
+            Console.WriteLine("Kérlek, irj be bármit, de legalább két karatertből álljon! :");
+            bool isStringOK = false;
+            do
             {
-                newArray[i] = rnd.Next(-2000000, 2000000);
-                Console.WriteLine(newArray[i]);
-            }
-            //emelkedő sorrend nested for-ral
-            for (int i = 0; i < newArray.Length; i++)
-            {
-                for (int j = 0; j < newArray.Length; j++)
+                try
                 {
-                    //túlindexelés figyelése
-                    if (j == newArray.Length-1)
+                    userString = (Convert.ToString(Console.ReadLine()));
+                    if (string.IsNullOrWhiteSpace(userString) || userString.Length < 2)
+                    {
+                        Console.WriteLine("\nKérlek, megfelelő karaktereket adj meg! :");
+                    }
+                    else
+                    {
+                        isStringOK = true;
+                    }
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("\nHiba! Írj be valamit! :");
+                }
+                
+                
+            } while (!isStringOK);
+            //converting string array to char array
+            var ca = userString.ToCharArray();
+            int numberOfChars = userString.Length;
+            Console.WriteLine("Ennyi karaktert ütöttél be: " + numberOfChars + "(" + userString + ").");
+            Console.WriteLine("Fúúú de jó lesz, most megfordítom, amit beírtál!!!");
+            //string char- jainak megfordítása            
+            Thread.Sleep(2000);
+            for (int i = 0; i < ca.Length; i++)
+            {
+                char characterA = ca[i];
+                if (ca.Length % 2 == 0)
+                {
+                    if (i == (ca.Length / 2))
                     {
                         break;
                     }
-                    if (newArray[j] > newArray[j + 1])
-                    {
-                        valueCache = newArray[j];
-                        newArray[j] = newArray[j + 1];
-                        newArray[j + 1] = valueCache;
-                    }
-                 
-                }               
-            }
-            Console.WriteLine("Elements in ASCENDING ORDER are as follows:");
-            foreach (int elements in newArray)
-            {
-                Thread.Sleep(300);
-                Console.WriteLine(elements);
-            }
-            Console.ReadKey();
-            //csökkenő sorrend nested for-ral 
-            for (int i = 0; i < newArray.Length; i++)
-            {
-                for (int j = 0; j < newArray.Length; j++)
-                {
-                    //túlindexelés figyelése
-                    if (j == newArray.Length - 1)
-                    {
-                        break;
-                    }
-                    if (newArray[j] < newArray[j + 1])
-                    {
-                        valueCache = newArray[j];
-                        newArray[j] = newArray[j + 1];
-                        newArray[j + 1] = valueCache;
-                    }
+                    ca[i] = ca[(ca.Length - 1) - i];
+                    ca[(ca.Length - 1) - i] = characterA;
 
                 }
+                if (ca.Length % 2 != 0)
+                {
+                    if (i == (ca.Length - 1) - i)
+                    {
+                        ca[i] = ca[(ca.Length - 1) - i];
+                        ca[(ca.Length - 1) - i] = characterA;
+                        break;
+                    }
+                    ca[i] = ca[(ca.Length - 1) - i];
+                    ca[(ca.Length - 1) - i] = characterA;
+                }
+                
             }
-
-            Console.WriteLine("Elements in DESCENDING ORDER are as follows:");
-            foreach (int elements in newArray)
-            {
-                Thread.Sleep(300);
-                Console.WriteLine(elements);
-            }
+            Console.WriteLine(ca);
             Console.ReadKey();
-
-
-
-            
-          
- 
         }
     }
 }
