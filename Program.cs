@@ -10,12 +10,14 @@ namespace Homework_Algorythmic_Basics_3
 
     class Program
     {
+        internal static void Swapper(char[] ca, int i, char characterA)
+        {
+            ca[i] = ca[(ca.Length - 1) - i];
+            ca[(ca.Length - 1) - i] = characterA;
+        }
 
         static void Main(string[] args)
         {
-            //var i = new userStringIterator();
-            
-
             string  userString = string.Empty;
             Console.WriteLine("Kérlek, irj be bármit, de legalább két karatertből álljon! :");
             bool isStringOK = false;
@@ -56,20 +58,18 @@ namespace Homework_Algorythmic_Basics_3
                     {
                         break;
                     }
-                    ca[i] = ca[(ca.Length - 1) - i];
-                    ca[(ca.Length - 1) - i] = characterA;
+                    Swapper(ca, i, characterA);
 
                 }
                 if (ca.Length % 2 != 0)
                 {
                     if (i == (ca.Length - 1) - i)
                     {
-                        ca[i] = ca[(ca.Length - 1) - i];
-                        ca[(ca.Length - 1) - i] = characterA;
+                        Swapper(ca, i, characterA);
                         break;
                     }
-                    ca[i] = ca[(ca.Length - 1) - i];
-                    ca[(ca.Length - 1) - i] = characterA;
+                    Swapper(ca, i, characterA);
+
                 }
                 
             }

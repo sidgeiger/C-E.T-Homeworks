@@ -5,3 +5,10 @@ C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\HomeWork_Algorhythmic_Basics_3
 C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\HomeWork_Algorhythmic_Basics_3 - BKP\Homework_Algorythmic_Basics_3\obj\Debug\Homework_Algorythmic_Basics_3.csproj.CoreCompileInputs.cache
 C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\HomeWork_Algorhythmic_Basics_3 - BKP\Homework_Algorythmic_Basics_3\obj\Debug\Homework_Algorythmic_Basics_3.exe
 C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\HomeWork_Algorhythmic_Basics_3 - BKP\Homework_Algorythmic_Basics_3\obj\Debug\Homework_Algorythmic_Basics_3.pdb
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\bin\Debug\Homework_Algorythmic_Basics_3.exe.config
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\bin\Debug\Homework_Algorythmic_Basics_3.exe
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\bin\Debug\Homework_Algorythmic_Basics_3.pdb
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\obj\Debug\Homework_Algorythmic_Basics_3.csproj.AssemblyReference.cache
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\obj\Debug\Homework_Algorythmic_Basics_3.csproj.CoreCompileInputs.cache
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\obj\Debug\Homework_Algorythmic_Basics_3.exe
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\obj\Debug\Homework_Algorythmic_Basics_3.pdb
