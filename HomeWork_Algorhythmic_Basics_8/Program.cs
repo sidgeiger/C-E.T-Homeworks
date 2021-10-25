@@ -24,12 +24,29 @@ namespace HomeWork_Algorhythmic_Basics_8
             Console.WriteLine("A véletlen generált szám, ami a piramis magassága:" + num);
             for (int i = 1; i <= num; i++)
             {
-
-                for (int j = 1; j <= i; ++j)
+            
+                for (int j = 1; j <= i; j++)
                 {
                     Console.Write("0");
                     Thread.Sleep(100);
                 }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+            
+            Console.WriteLine("Teljes piramis a rnd szám alapján:");
+            
+            for (int i = 1; i <= num; i++)
+            {
+                for (int j = num - i; j > 0; j--)
+                {
+                    Console.Write(" ");
+                }
+                for (int k = 0; k < 2 * i; k++)
+                {
+                    Console.Write("0");
+                    Thread.Sleep(100);
+                }   
                 Console.WriteLine();
             }
             Console.ReadKey();
