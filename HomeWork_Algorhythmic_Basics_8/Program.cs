@@ -2,137 +2,37 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
-namespace HomeWork_Algorhythmic_Basics_7
+namespace HomeWork_Algorhythmic_Basics_8
 {
+    // TODO Generálj 5 és 20 között egy random egész számot.Amennyi lett, annyi sorban írj ki egy nullákból álló fél piramist.
+    //Pl: 6 a random szám
+    //0
+    //00
+    //000
+    //0000
+    //00000
+    //000000
+    // TODO Ha megy akkor írj ki egy egész piramist is így.A csúcsa 2 nulla legyen.
     class Program
     {
-        
-
-        // Írd ki az első 20 fibonachi számot.Írd mellé, hogy prím-e, Írd mellé, hogy páros, vagy pártlan. Írd mellé, hogy szökőév-e.
-        // függvényeket felvenni és minden elemen futtatni
-        // prím vagy nem prím
-        // páros vagy páratlan
-        //TODO szökőév vagy nem
-        static bool PrimeOrNotPrime(short _item, bool _isPrime)
-        {
-                byte counter = 0;
-                
-                if (_item == 1)
-                {
-                    _isPrime = false;
-                }
-                else if (_item == 2 || _item == 3)
-                {
-                    _isPrime = true;
-                }
-                else
-                {
-                    for (int i = 2; i <= _item; i++)
-                    {
-                        if (_item % i == 0)
-                        {
-                            counter++;
-                            _isPrime = false;
-                        }
-
-                    }
-                    if (counter < 2)
-                    {
-                        _isPrime = true;
-                    }
-                    counter = 0;
-                }
-            return _isPrime;
-            }
-        static bool EvenOrOdd(short _item, bool _isPrime)
-        {
-            if (_item % 2 == 0)
-            {
-                _isPrime = true;
-            }
-            else
-            {
-                _isPrime = false;
-            }
-            return _isPrime;
-        }
-        static bool EscapingYear(short _item, bool _isescapingYear)
-        {
-            //szökőév kiszámítása
-            if (_item % 4 == 0 && _item < 100)
-            {
-                _isescapingYear = true;
-            }
-            else if(_item % 4 == 0)
-            {
-                _isescapingYear = true;
-                if (_item % 100 == 0 && _item % 400 == 0)
-                {
-                    _isescapingYear = true;
-                }
-                else if(_item % 100 == 0)
-                {
-                    _isescapingYear = false;
-                }
-            }
-            else
-            {
-                _isescapingYear = false;
-            }
-            
-            return _isescapingYear;
-            
-        }
+        static Random rnd = new Random();
         static void Main(string[] args)
         {
-            bool isPrime = false;
-            bool isEven = false;
-            bool isescapingYear = false;
-            var fibonacciNumbers = new List<short> { 1, 1 };
+            int num = rnd.Next(5, 20);
+            Console.WriteLine("A véletlen generált szám, ami a piramis magassága:" + num);
+            for (int i = 1; i <= num; i++)
+            {
 
-            while (fibonacciNumbers.Count < 20)
-            {
-                short previous = fibonacciNumbers[fibonacciNumbers.Count - 1];
-                short previous2 = fibonacciNumbers[fibonacciNumbers.Count - 2];
-                short fibNum = (short)(previous + previous2);
-                fibonacciNumbers.Add(fibNum);
-                
-            }
-            foreach (var item in fibonacciNumbers)
-            {
-                isPrime = PrimeOrNotPrime(item, isPrime);
-                isEven = EvenOrOdd(item, isEven);
-                isescapingYear = EscapingYear(item, isescapingYear);
-                Console.Write(item);
-                if (isPrime)
+                for (int j = 1; j <= i; ++j)
                 {
-                    Console.Write("   Prímszám,");
+                    Console.Write("0");
+                    Thread.Sleep(100);
                 }
-                else
-                {
-                    Console.Write("   Nem prímszám,");
-                }
-                if (isEven)
-                {
-                    Console.Write("   Páros,");
-                }
-                else
-                {
-                    Console.Write("   Páratlan,");
-                }
-                if (isescapingYear)
-                {
-                    Console.WriteLine("   Szökőév,");
-                }
-                else
-                {
-                    Console.WriteLine("   Nem szökőév,");
-                }
+                Console.WriteLine();
             }
             Console.ReadKey();
-
         }
     }
 }

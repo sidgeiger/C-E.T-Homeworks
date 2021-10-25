@@ -1,0 +1,7 @@
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\HomeWork_Algorhythmic_Basics_8\bin\Debug\HomeWork_Algorhythmic_Basics_7.exe.config
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\HomeWork_Algorhythmic_Basics_8\bin\Debug\HomeWork_Algorhythmic_Basics_7.exe
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\HomeWork_Algorhythmic_Basics_8\bin\Debug\HomeWork_Algorhythmic_Basics_7.pdb
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\HomeWork_Algorhythmic_Basics_8\obj\Debug\HomeWork_Algorhythmic_Basics_8.csproj.AssemblyReference.cache
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\HomeWork_Algorhythmic_Basics_8\obj\Debug\HomeWork_Algorhythmic_Basics_8.csproj.CoreCompileInputs.cache
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\HomeWork_Algorhythmic_Basics_8\obj\Debug\HomeWork_Algorhythmic_Basics_7.exe
+C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\HomeWork_Algorhythmic_Basics_8\obj\Debug\HomeWork_Algorhythmic_Basics_7.pdb
