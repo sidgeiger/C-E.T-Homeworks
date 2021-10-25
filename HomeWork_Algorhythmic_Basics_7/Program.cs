@@ -14,7 +14,7 @@ namespace HomeWork_Algorhythmic_Basics_7
         // függvényeket felvenni és minden elemen futtatni
         // prím vagy nem prím
         // páros vagy páratlan
-        //TODO szökőév vagy nem
+        // szökőév vagy nem
         static bool PrimeOrNotPrime(short _item, bool _isPrime)
         {
                 byte counter = 0;
