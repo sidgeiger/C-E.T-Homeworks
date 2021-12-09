@@ -8,6 +8,7 @@ namespace HomeWork_Algorhythmic_Basics_6
 {
     class Program
     {
+        //todo eeegzzsyerrerer
         //0-3000 írd ki a szökő éveket
         //Szökőév minden olyan év, amelynek az évszáma néggyel osztható, kivéve a 100-zal osztható dátumok. A kivétel alóli kivételt a 400-zal osztható dátumok adják,
         //vagyis például 2000 is szökőév volt, ám 2100 már nem lesz az.
