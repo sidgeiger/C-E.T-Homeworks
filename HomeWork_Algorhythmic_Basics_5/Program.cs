@@ -9,6 +9,7 @@ namespace HomeWork_Algorhythmic_Basics_5
 {
     class Program
     {
+        //todo Egzsyerűsítsd kyyyyryyyylyyyyeyyykyyyy
         //0-10000 írd ki az összes prím számot
         static void Main(string[] args)
         {
