@@ -12,3 +12,10 @@ C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\obj\Debug\Home
 C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\obj\Debug\Homework_Algorythmic_Basics_3.csproj.CoreCompileInputs.cache
 C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\obj\Debug\Homework_Algorythmic_Basics_3.exe
 C:\Users\zoltan.hetenyi\source\repos\CSharp_ET_HW\C-E.T-Homeworks\obj\Debug\Homework_Algorythmic_Basics_3.pdb
+d:\repos\CSharp_ET_HW\C-E.T-Homeworks\REVIEW\bin\Debug\Homework_Algorythmic_Basics_3.exe.config
+d:\repos\CSharp_ET_HW\C-E.T-Homeworks\REVIEW\bin\Debug\Homework_Algorythmic_Basics_3.exe
+d:\repos\CSharp_ET_HW\C-E.T-Homeworks\REVIEW\bin\Debug\Homework_Algorythmic_Basics_3.pdb
+d:\repos\CSharp_ET_HW\C-E.T-Homeworks\REVIEW\obj\Debug\Homework_Algorythmic_Basics_3.csproj.AssemblyReference.cache
+d:\repos\CSharp_ET_HW\C-E.T-Homeworks\REVIEW\obj\Debug\Homework_Algorythmic_Basics_3.csproj.CoreCompileInputs.cache
+d:\repos\CSharp_ET_HW\C-E.T-Homeworks\REVIEW\obj\Debug\Homework_Algorythmic_Basics_3.exe
+d:\repos\CSharp_ET_HW\C-E.T-Homeworks\REVIEW\obj\Debug\Homework_Algorythmic_Basics_3.pdb

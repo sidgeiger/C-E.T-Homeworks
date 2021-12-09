@@ -18,29 +18,21 @@ namespace Homework_Algorythmic_Basics_3
 
         static void Main(string[] args)
         {
-            string  userString = string.Empty;
+            string userString = string.Empty;
             Console.WriteLine("Kérlek, irj be bármit, de legalább két karatertből álljon! :");
             bool isStringOK = false;
             do
             {
-                try
+                userString = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(userString) || userString.Length < 2)
                 {
-                    userString = (Convert.ToString(Console.ReadLine()));
-                    if (string.IsNullOrWhiteSpace(userString) || userString.Length < 2)
-                    {
-                        Console.WriteLine("\nKérlek, megfelelő karaktereket adj meg! :");
-                    }
-                    else
-                    {
-                        isStringOK = true;
-                    }
+                    Console.WriteLine("\nKérlek, megfelelő karaktereket adj meg! :");
                 }
-                catch (Exception)
+                else
                 {
-                    Console.WriteLine("\nHiba! Írj be valamit! :");
+                    isStringOK = true;
                 }
-                
-                
+
             } while (!isStringOK);
             //converting string array to char array
             var ca = userString.ToCharArray();
@@ -48,30 +40,35 @@ namespace Homework_Algorythmic_Basics_3
             Console.WriteLine("Ennyi karaktert ütöttél be: " + numberOfChars + "(" + userString + ").");
             Console.WriteLine("Fúúú de jó lesz, most megfordítom, amit beírtál!!!");
             //string char- jainak megfordítása            
-            Thread.Sleep(2000);
-            for (int i = 0; i < ca.Length; i++)
+            //for (int i = 0; i < ca.Length; i++)
+            //{
+            //    char characterA = ca[i];
+            //    if (ca.Length % 2 == 0)
+            //    {
+            //        if (i == (ca.Length / 2))
+            //        {
+            //            break;
+            //        }
+            //        Swapper(ca, i, characterA);
+
+            //    }
+            //    if (ca.Length % 2 != 0)
+            //    {
+            //        if (i == (ca.Length - 1) - i)
+            //        {
+            //            Swapper(ca, i, characterA);
+            //            break;
+            //        }
+            //        Swapper(ca, i, characterA);
+
+            //    }
+
+            //}
+
+            for (int i = 0; i < ca.Length / 2; i++)
             {
                 char characterA = ca[i];
-                if (ca.Length % 2 == 0)
-                {
-                    if (i == (ca.Length / 2))
-                    {
-                        break;
-                    }
-                    Swapper(ca, i, characterA);
-
-                }
-                if (ca.Length % 2 != 0)
-                {
-                    if (i == (ca.Length - 1) - i)
-                    {
-                        Swapper(ca, i, characterA);
-                        break;
-                    }
-                    Swapper(ca, i, characterA);
-
-                }
-                
+                Swapper(ca, i, characterA);
             }
             Console.WriteLine(ca);
             Console.ReadKey();
