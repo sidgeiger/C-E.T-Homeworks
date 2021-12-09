@@ -8,7 +8,7 @@ namespace HomeWork_Algorhythmic_Basics_7
 {
     class Program
     {
-        
+        // bemenő paraméterek átnézése, IsEven 1 sorban megírható
 
         // Írd ki az első 20 fibonachi számot.Írd mellé, hogy prím-e, Írd mellé, hogy páros, vagy pártlan. Írd mellé, hogy szökőév-e.
         // függvényeket felvenni és minden elemen futtatni
